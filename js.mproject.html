@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <script>
+              function myfunction(){
+                     document.getElementById("demo").innerHTML="ZINDAGI NA MILEGI DOBARA"
+              }     
+          </script>
+     </head>
+<body>
+      <h1>What Can Javascript Do?</h1>
+      
+      <p id="demo">Javascript can change the content.</p>
+
+      <button
+       type="button"  onclick='document.getElementById("demo").innerHTML="Kaise Ho Bacho!"'>CLICK HERE`</button>
+
+       <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+         <button onclick='document.getElementById("myImage").src="C:\Users\Dell\Desktop\ARYA\html\Videos\dog1.gif"'>DOG STOP</button>
+
+       <img id="myImage"  src="C:\Users\Dell\Desktop\ARYA\html\Videos\dog1.gif" style="width:200px">
+
+     <button onclick='document.getElementById("myImage").src="C:\Users\Dell\Desktop\ARYA\html\Videos\dog.gif"'>DOG RUN</button>
+
+     <p id="demo1">Javascript can change the style of an element</p>
+
+     <button type="button" onclick='document.getElementById("demo1").style.fontSize="50px"'>TOUCH IT`</button> </br>
+
+     <p id="demo2" style="display: none;">Take It Easy </p>    
+     
+     <button type="button" onclick='document.getElementById("demo2").style.display="block"'>CHECK IT`</button>  </br>
+
+     <button type="button"
+     onclick="myfunction()">CLICK HERE`</button>  </br>
+
+      <button type="button"
+      onclick="document.write(12+35)">CHECK ITT`</button>   </br>
+
+    <script>
+     alert(98+2);
+    </script>
+
+    <script>
+    console.log(34+23);
+    </script>
+
+    <button onclick="window.print()">CLICK TO PRINT`</button>
+
+</body>
+</html>
